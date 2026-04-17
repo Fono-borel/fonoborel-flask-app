@@ -1,0 +1,56 @@
+    1  docker ps
+   18  docker build -t fonoborel-flask-app .
+   19  sudo docker build -t fonoborel-flask-app .
+   20  docker build -t fonoborel-flask-app .
+   22  sudo docker build -t fonoborel-flask-app .
+   24  docker --version
+   26  sudo docker build -t fonoborel-flask-app .
+   27  sudo docker run -d -p 5000:5000 --name fonoborel-container fonoborel-flask-app
+   28  sudo docker ps -a
+   29  sudo docker rm fonoborel-container
+   30  sudo docker run -d -p 5000:5000 --name fonoborel-container fonoborel-flask-app
+   33  git add Dockerfile app.py requirements.txt
+   35  git commit -m "TP1 : Application Flask conteneurisée avec Docker"
+   37  git push origin main
+   40  git init
+   42  git add Dockerfile app.py requirements.txt
+   44  git commit -m "TP1 : Application Flask conteneurisée avec Docker"
+   46  git push origin main
+   48  ssh-keygen -t ed25519 -C "ton_email_github@example.com"
+   50  ssh -T git@github.com
+   53  git add Dockerfile app.py requirements.txt
+   55  git commit -m "TP1 : Application Flask conteneurisée avec Docker"
+   57  git push origin main
+   58  git config --global user.name "Fono-borel"
+   59  git config --global user.email "ton_email_github@example.com"
+   60  git config --global user.name "Fono-borel"
+   61  git config --global user.email "fonoborel@gmail.com"
+   62  git config --global user.name "Fono-borel"
+   63  git config --global user.email "ton_email_github@example.com"
+   64  git config --global user.name "Fono-borel"
+   65  git config --global user.email "fonoborel@gmail.com"
+   66  git init
+   67  git add .
+   68  git commit -m "TP1 : Flask app Dockerisée"
+   69  git branch -M main
+   72  git add Dockerfile app.py requirements.txt
+   74  git commit -m "TP1 : Application Flask conteneurisée avec Docker"
+   76  git push origin main
+   78  git remote -v
+   79  git remote add origin https://github.com/Fono-borel/fonoborel-flask-app.git
+   80  git remote -v
+   82  git add .
+   84  git commit -m "TP1 : Application Flask conteneurisée avec Docker"
+   86  git push -u origin main
+   87  git config --global user.name "Fono-borel"
+   88  git config --global user.email "fonoborel@gmail.com"
+   89  git config --global --list
+   91  git add .
+   92  git commit -m "TP1 : Flask Docker app"
+   93  git remote -v
+   94  git push -u origin main
+   95  Pour créer un token → github.com/settings/tokens → Generate new token (classic) → coche repo → génère et copie
+   96  git push -u origin main
+   99  ssh -T git@github.com
+  101  git push -u origin main
+  103  history | grep -E "docker|git|pip" > historique_commandes.txt
